@@ -25,6 +25,7 @@ public class Exercice {
 		NUM_2 = NUM_3;
 		NUM_3 = SWAP;
 		
+		System.out.println(NUM_1 + ", " + NUM_2 + ", " + NUM_3);
 	}
 
 }
