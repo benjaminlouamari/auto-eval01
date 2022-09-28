@@ -1,0 +1,26 @@
+package metho_package;
+
+import java.util.Scanner;
+
+public class Exercice {
+
+	public static void main(String[] args) {
+		
+		float a = 1;
+		float b = 2;
+		float c = 5;
+		
+		float deg_a = 1;
+		float deg_b = 2;
+		float deg_c = 5;
+		
+		float AVG = (a + b + c) / 3;
+		
+		float POND_AVG = (a*deg_a + b*deg_b + c*deg_c) / (deg_a + deg_b + deg_c);
+		
+		System.out.println(AVG);
+		System.out.println(POND_AVG);
+		
+	}
+
+}
